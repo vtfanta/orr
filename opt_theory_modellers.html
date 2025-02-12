@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-94ef975364e19689ede2db87c80ade01.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0115020a241d7d5b49a351993ae89560.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1065,8 +1065,8 @@ window.Quarto = {
 </details>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>2-element Vector{Float64}:
- 0.3000000000000005
- 0.6999999999999996</code></pre>
+ 0.30000000000000143
+ 0.6999999999999995</code></pre>
 </div>
 </div>
 <p>Although the two solvers are solving the same problem, the data has to be formatted differently for each of them (and the difference in syntax is not negligible either).</p>
@@ -1106,8 +1106,8 @@ window.Quarto = {
 </details>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>2-element Vector{Float64}:
- 0.29999999999999893
- 0.700000000000001</code></pre>
+ 0.2999999999999993
+ 0.7000000000000002</code></pre>
 </div>
 </div>
 </div>
@@ -1204,8 +1204,8 @@ print(f"Obj: {m.ObjVal:g}")</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>2×1 Matrix{Float64}:
- 0.3001730150604362
- 0.6998700432179318</code></pre>
+ 0.3001730150604346
+ 0.6998700432179298</code></pre>
 </div>
 </div>
 </section>
@@ -1321,7 +1321,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/vtfanta\.github\.io\/orr\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

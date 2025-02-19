@@ -6,12 +6,6 @@ bibliography:
     - ref_robust_control.bib
 csl: ieee-control-systems.csl
 format:
-<<<<<<< HEAD
-    html     
----
-
-tbd
-=======
     html:
         html-math-method: katex     
 ---
@@ -77,4 +71,3 @@ Robustness of a control system is certainly an important practical property, and
 
 The reason why we address this particular aspect of a control system in our course is that robustness can be naturally incorporated into the design of a controller using the methods of optimal control. Namely, the frameworks $\mathcal H_\infty$-optimal control and $\mu$-synthesis are the most prominent examples of such optimization-based robust control design. While it used to be possible to design, say, a PID controller while keeping an eye on the gain and phase margins, we aim at attaining robustness as an outcome of optimization procedures.
 
->>>>>>> 68e14b0a712cb7b306b2ac0b482cc51eee0320b0
